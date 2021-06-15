@@ -1,0 +1,18 @@
+https://www.hostitsmart.com/manage/clientarea.php?action=services
+password : daryabusiness@gmail.com
+user name : Arya$786
+
+LOGIN DETAILS:
+	Username:zqgnnbyw
+	Password:RY;Bh07gfn2A7@
+	Control Panel URL:https://103.127.146.46:2083/
+	Once your domain has propogated, you may also use
+	http://www.deepakarya.info:2082/
+
+
+	
+FTP
+	FTP Hostname:deepakarya.info
+	Username:zqgnnbyw
+	Password:RY;Bh07gfn2A7@
+	Webpage URL:http://www.deepakarya.info

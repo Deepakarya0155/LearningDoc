@@ -1,0 +1,26 @@
+version: '3.2'
+
+services:
+  testing:
+    image: deepakarya0155/t2-dockermysqlexample:0.0.1-SNAPSHOT
+    mem_limit: 500m
+    ports:
+      - "8888:8080"
+    networks:
+      - testing-network
+    depends_on:
+      - msserver
+    environment:
+      SPRING.DATASOURCE.URL: jdbc:mysql://msserver:3306/
+  msserver:
+    image: mysql
+    environment:
+      MYSQL_ROOT_PASSWORD: admin
+      MYSQL_DATABASE: testing
+    ports:
+      - "3306:3306"
+    networks:
+      - testing-network
+
+networks:
+  testing-network:

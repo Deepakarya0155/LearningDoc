@@ -1,0 +1,990 @@
+1. Why is Java a platform independent language?
+2. Why is Java not a pure object oriented language?
+3. Pointers are used in C/ C++. Why does Java not make use of pointers?
+4. What do you understand by an instance variable and a local variable?
+5. What do you mean by data encapsulation?
+6. Tell us something about JIT compiler.
+7. Can you tell the difference between equals() method and equality operator (==) in Java?
+8. How is an infinite loop declared in Java?
+9. Briefly explain the concept of constructor overloading
+10. Comment on method overloading and overriding by citing relevant examples.
+11. A single try block and multiple catch blocks can co-exist in a Java Program. Explain.
+12. Explain the use of final keyword in variable, method and class.
+13. Do final, finally and finalize keywords have the same function?
+14. When can you use super keyword?
+15. Can the static methods be overloaded?
+16. Can the static methods be overridden?
+17. What is the main objective of garbage collection?
+18. What part of memory - Stack or Heap - is cleaned in garbage collection process?
+19. Apart from the security aspect, what are the reasons behind making strings immutable in Java?
+20. How would you differentiate between a String, StringBuffer, and a StringBuilder?
+21. Using relevant properties highlight the differences between interfaces and abstract classes.
+22. In Java, static as well as private method overriding is possible. Comment on the statement.
+24. Why is the character array preferred over string for storing confidential information?
+25. What are the differences between JVM, JRE and JDK in Java?
+23. What makes a HashSet different from a TreeSet?
+26. What are the differences between HashMap and HashTable in Java?
+27. What is the importance of reflection in Java?
+28. What are the different ways of threads usage?
+29. What are the differences between constructor and method of a class in Java?
+30. Java works as “pass by value” or “pass by reference” phenomenon?
+31. Which among String or String Buffer should be preferred when there are lot of updates required to be done in the data?
+
+32. How to not allow serialization of attributes of a class in Java?
+1. What is serialization in java?
+
+33. What happens if the static modifier is not included in the main method signature in Java?
+34. What happens if there are multiple main methods inside one class in Java?
+35. What do you understand by Object Cloning and how do you achieve it in Java?
+36. How does an exception propagate in the code?
+37. Is it mandatory for a catch block to be followed after a try block?
+38. Will the finally block get executed when the return statement is written at the end of try block and catch block as shown below?
+39. Can you call a constructor of a class inside the another constructor?
+40. Contiguous memory locations are usually used for storing actual values in an array but not in ArrayList. Explain.
+41. Although inheritance is a popular OOPs concept, it is less advantageous than composition. Explain.
+42. How is the creation of a String using new() different from that of a literal?
+43. Is exceeding the memory limit possible in a program despite having a garbage collector?
+
+44. Why is synchronization necessary? Explain with the help of a relevant example.
+2. What is synchronization in java?
+
+46. Can you explain the Java thread lifecycle?
+47. What could be the tradeoff between the usage of an unordered array versus the usage of an ordered array?
+48. Is it possible to import the same class or package twice in Java and what happens to it during runtime?
+49. In case a package has sub packages, will it suffice to import only the main package? e.g. Does importing of com.myMainPackage.* also import com.myMainPackage.mySubPackage.*?
+50. Will the finally block be executed if the code System.exit(0) is written at the end of try block?
+51. What do you understand by marker interfaces in Java?
+52. Explain the term “Double Brace Initialisation” in Java?
+53. Why is it said that the length() method of String class doesn't return accurate results?
+
+4. How to create immutable class in java?
+
+4. What is thread in Java?
+7. What is enumeration in Java?
+8. What is inheritance in Java?
+
+
+56. Check if a given string is palindrome using recursion.
+57. Write a Java program to check if the two strings are anagrams.
+58. Write a Java Program to find the factorial of a given number.
+3. How to reverse a string in Java?
+59. Given an array of non-duplicating numbers from 1 to n where one number is missing, write an efficient java program to find that missing number.
+60. Write a Java Program to check if any number is a magic number or not. A number is said to be a magic number if after doing sum of digits in each step and inturn doing sum of digits of that sum, the ultimate result (when there is only one digit left) is 1.
+
+--------
+
+
+3. What is spring in java?
+5. What is servlet in java?
+6. What is xname class in java?
+7. Can static methods reference non-static variables?
+8. How do static blocks get executed if there are multiple static blocks?
+9. Can we override static methods?
+10. Which class do all classes inherit from in java?
+11. What is classloader?
+12. The difference between Serializable and Externalizable in Java?
+13. Can we use String in the switch case?
+14. What are object serialization and deserialization?
+15. The difference between checked and unchecked exception in Java?
+16. Is ++ operator is thread-safe in Java?
+17. Which class contains the clone method? Cloneable or Object?
+1. What is interface in java?
+2. How to declare array in java?
+3. What is polymorphism in java?
+4. How to convert string to int in java?
+5. How to convert int to string in java?
+6. Why string is immutable in java?
+7. how to convert integer to string in java?
+8. How to compile java program?
+9. How to convert char to string in java?
+10. What is wrapper class in java?
+11. How to iterate map in java?
+12. How to convert char to int in java?
+13. What is an interface in java?
+14. How to split string in java?
+14. How to read a file in java?
+15. How to use scanner in java?
+16. How to reverse a number in java?
+17. What is instance in java?
+18. How to convert char array to string in java?
+19. What is maven in java?
+20. What is an array in java?
+21. What is applet in java?
+22. What is method overriding in java?
+22. how to check java is installed or not?
+23. How to return an array in java?
+24. How to generate random number in java?
+25. What is generics in java?
+26. What is a constructor in java?
+27. How to find the length of an array in java?
+28. What is overriding in java?
+29. How to create a file in java?
+30. What is an instance variable in java?
+31. How to iterate hashmap in java?
+32. How to split a string in java?
+33. How to sort array in java?
+34. Why main method is static in java?
+35. How to reverse a string in java word by word?
+36. How to convert string to date in java?
+37. How to read a string in java?
+38. How to convert string to integer in java?
+39. How to sort arraylist in java?
+40. How to find the length of a string in java?
+41. What is data type in java?
+42. What is hashmap in java?
+43. What is stream in java?
+44. How to convert double to string in java?
+45. How to declare an array in java?
+46. How to replace a character in a string in java?
+47. What is lambda expression in java?
+48. What is microservices java?
+49. What is jsp in java?
+50. What is the use of constructor in java?
+51. How to convert list to array in java?
+52. How many ways to create object in java?
+53. Why java is becoming functional (java 8)?
+54. Which inheritance is not supported in java?
+55. How to convert double to int in java?
+56. How to get ASCII value of char in java?
+57. How to declare a string array in java?
+58. What is marker interface in java?
+59. How to take multiple string input in java using a scanner?
+60. How to concatenate two strings in java?
+61. How to convert string to char array in java?
+62. What is type casting in java?
+63. How to sort a string in java?
+64. How to input string in java?
+65. How to import scanner in java?
+66. How to remove special characters from a string in java?
+67. How to find string length in java?
+68. How to add elements in array in java?
+69. What is exception handling in java?
+70. How to scan string in java?
+71. When to use comparable and comparator in java with example?
+72. How to create jar file in java?
+73. How to call a method in java?
+74. What is the difference between next () and nextline () in java?
+75. what is mvc in java?
+76. How to iterate a map in java?
+77. What is the diamond problem in java?
+78. How to swap two strings in java?
+79. How to convert string to date in java in yyyy-mm-dd format?
+80. What is getname in java with example?
+81. What is bufferreader in java?
+82. How to create a package in java?
+83. What is aggregation in java?
+84. How to use switch case in java?
+85. What is recursion in java?
+86. How to print array in java?
+87. What is autoboxing and unboxing in java?
+88. A java constructor returns a value, but what?
+89. What is method overloading in java?
+90. How to create an array of objects in java?
+91. When to use abstract class and interface in java?
+92. How to create singleton class in java?
+93. What is a static method in java?
+94. Explain the exception handling mechanism of Java?
+95. When do we use the Array list?
+96. What is the use of generics in Java?
+97. What is an iterator?
+98. What is a hashmap?
+99. What is a stack?
+100. What is a treemap?
+101. What is a vector?
+102. What is the difference between ArrayList and vector?
+103. Write a program to calculate the factorial of a number in java.
+104. Write a program to check if a number is prime.
+105. Write a program to convert decimal numbers to binary.
+106. Write a program to convert decimal numbers to octal.
+107. Which utility function can be used to extract characters at a specific location in a string?
+108. How to get the length of a string in java?
+109. Which of the following syntax for defining an array is correct?
+110. What will this return 3*0.1 == 0.3? true or false?
+111. Write a program to do bubble sort on an array in java.
+112. Write a program to generate the following output in java?
+*
+**
+****
+*****
+******
+113. Write a program to generate the following output.
+****
+***
+**
+*
+114. Write a program in java to remove all vowels from a string.
+115. Write a program in java to check for palindromes.
+116. What is the underlying mechanism in java’s built-in sort?
+117. Which utility function is used to check the presence of elements in an ArrayList?
+118. How to remove an element from an array?
+119. Difference between a = a + b and a += b ?
+
+1. What is class in Java?
+2. What is a constructor in java?
+3. What is object in java?
+4. How to create object in java?
+5. What is an object in java?
+6. What is oops in java?
+7. Who executes the byte code in java?
+8. Why java is secure?
+9. Why java does not support multiple inheritance?
+10. Why java doesn’t support multiple inheritance?
+11. Why we can’t create the object of abstract class in java?
+12. What is Constructor Overloading?
+13. How many types of Inheritance are possible in Java?
+14. How many types of constructor does Java support?
+15. What is a singleton class in Java? What’s the benefit of making a class singleton?
+16. What is the role of finalize()?
+17. Explain encapsulation in Java.
+18. Explain abstraction in Java.
+19. If a child class inherits base class then are the constructor of the base class also inherited by the child class?
+20. What is the use of super?
+21. How is encapsulation achieved in Java?
+22. What is an abstract class in Java?
+23. How is polymorphism achieved in Java?
+24. Can the main method be declared as private in Java?
+25. What is an object in Java?
+26. What happens if we make the constructor final?
+27. What is constructor chaining?
+1. What is multithreading in java?
+2. What is thread-safe in java?
+3. What is a thread in java?
+4. What is volatile in java?
+5. How to generate random numbers in java within range?
+6. If we clone objects using the assignment operator does the references differ?
+7. Can we start a thread twice in java?
+8. How can java threads be created?
+
+
+
+Programming & Frameworks
+Q1. Explain JDK, JRE and JVM?
+Q2. Explain public static void main(String args[]) in Java.
+Q3. Why Java is platform independent?
+Q4. Why Java is not 100% Object-oriented?
+Q5. What are wrapper classes in Java?
+Q6. What are constructors in Java?
+Q7. What is singleton class in Java and how can we make a class singleton?
+Q8. What is the difference between Array list and vector in Java?
+Q9. What is the difference between equals() and == in Java?
+Q10. What are the differences between Heap and Stack Memory in Java?
+Q11. What is a package in Java? List down various advantages of packages.
+Q12. Why pointers are not used in Java?
+Q13. What is JIT compiler in Java?
+Q14. What are access modifiers in Java?
+Q15. Define a Java Class.
+Q16. What is an object in Java and how is it created?
+Q17. What is Object Oriented Programming?
+Q18. What are the main concepts of OOPs in Java?
+Q19. What is the difference between a local variable and an instance variable?
+Q20. Differentiate between the constructors and methods in Java?
+Q21. What is final keyword in Java?
+Q22. What is the difference between break and continue statements?
+Q23.What is an infinite loop in Java? Explain with an example.
+Q24. What is the difference between this() and super() in Java?
+Q25. What is Java String Pool?
+Q26. Differentiate between static and non-static methods in Java.
+Q27. What is constructor chaining in Java?
+Q29. What is a classloader in Java?
+Q30. Why Java Strings are immutable in nature?
+Q31. What is the difference between an array and an array list?
+Q32. What is a Map in Java?
+Q33. What is collection class in Java? List down its methods and interfaces.
+Q1. What is Polymorphism?
+
+
+
+Q2. What is runtime polymorphism or dynamic method dispatch?
+Q3. What is abstraction in Java?
+Q4. What do you mean by an interface in Java?
+Q5. What is the difference between abstract classes and interfaces?
+Q7. What are the different types of inheritance in Java?
+Q8. What is method overloading and method overriding?
+Java Certification Training Course
+Q9. Can you override a private or static method in Java?
+Q10. What is multiple inheritance? Is it supported by Java?
+Q11. What is encapsulation in Java?
+Q12. What is an association?
+Q13. What do you mean by aggregation?
+Q14. What is composition in Java?
+Q17. What is a copy constructor in Java?
+Q18. What is a constructor overloading in Java?
+Q1. What is a servlet?
+Q2. What are the differences between Get and Post methods?
+Q3. What is Request Dispatcher?
+Q4. What are the differences between forward() method and sendRedirect() methods?
+Q5. What is the life-cycle of a servlet?
+Q6. How does cookies work in Servlets?
+Q7. What are the differences between ServletContext vs ServletConfig?
+Q8. What are the different methods of session management in servlets?
+1. What is JDBC Driver?
+2. What are the steps to connect to a database in java?
+3. What are the JDBC API components?
+4. What is the role of JDBC DriverManager class?
+5. What is JDBC Connection interface?
+6.  What is the purpose of JDBC ResultSet interface?
+7. What is JDBC ResultSetMetaData interface?
+8. What is JDBC DatabaseMetaData interface?
+9. What do you mean by batch processing in JDBC?
+10. What is the difference between execute, executeQuery, executeUpdate?
+Q11. What do you understand by JDBC Statements?
+Q1. What is Spring?
+Q2. Name the different modules of the Spring framework.
+Q3. List some of the important annotations in annotation-based Spring configuration.
+Q4. Explain Bean in Spring and List the different Scopes of Spring bean.
+Q5. Explain the role of DispatcherServlet and ContextLoaderListener.
+Programming & Frameworks Training
+FULL STACK WEB DEVELOPMENT INTERNSHIP PROGRAM
+Full Stack Web Development Internship Program
+JAVA CERTIFICATION TRAINING COURSE
+Java Certification Training Course
+PYTHON SCRIPTING CERTIFICATION TRAINING
+Python Scripting Certification Training
+
+
+
+
+
+
+
+
+
+
+
+
+
+Q6. What are the differences between constructor injection and setter injection?
+Q7. What is autowiring in Spring? What are the autowiring modes?
+Q8. How to handle exceptions in Spring MVC Framework?
+Q9. What are some of the important Spring annotations which you have used?
+Q10. How to integrate Spring and Hibernate Frameworks?
+Q11. Name the types of transaction management that Spring supports.
+1. What is Hibernate Framework?
+2. What are the important benefits of using Hibernate Framework?
+3. Explain Hibernate architecture.
+4. What are the differences between get and load methods?
+5. What are the advantages of Hibernate over JDBC?
+1. What are the life-cycle methods for a jsp?
+2. What are the JSP implicit objects?
+3. What are the differences between include directive and include action?
+4. How to disable caching on back button of the browser?
+5. What are the different tags provided in JSTL?
+6. How to disable session in JSP?
+7.  How to delete a Cookie in a JSP?
+8. Explain the jspDestroy() method.
+9.  How is JSP better than Servlet technology?
+10. Why should we not configure JSP standard tags in web.xml?
+11. How will you use JSP EL in order to get the HTTP method name?
+Q1. What is the difference between Error and Exception?
+Q2. How can you handle Java exceptions?
+Q3. What are the differences between Checked Exception and Unchecked Exception?
+Q4. What purpose do the keywords final, finally, and finalize fulfill? 
+ Q5. What are the differences between throw and throws? 
+Java Certification Training Course
+Q6. What is exception hierarchy in java?
+Q7. How to create a custom Exception?
+Q8. What are the important methods of Java Exception Class?
+Q9. What are the differences between processes and threads?
+Q10. What is a finally block? Is there a case when finally will not execute?
+Q11. What is synchronization?
+ Q12. Can we write multiple catch blocks under single try block? 
+Q13. What are the important methods of Java Exception Class?
+Q14. What is OutOfMemoryError in Java?
+Q15. What is a Thread?
+Q16. What are the two ways to create a thread?
+Q17. What are the different types of garbage collectors in Java?
+
+
+
+
+What do you know about Java?
+What are the supported platforms by Java Programming Language?
+List any five features of Java?
+Why is Java Architectural Neutral?
+How Java enabled High Performance?
+Why Java is considered dynamic?
+What is Java Virtual Machine and how it is considered in context of Java’s platform independent feature?
+List two Java IDE’s?
+List some Java keywords(unlike C, C++ keywords)?
+What do you mean by Object?
+Define class?
+What kind of variables a class can consist of?
+What is a Local Variable?
+What is a Instance Variable?
+What is a Class Variable?
+What is Singleton class?
+What do you mean by Constructor?
+List the three steps for creating an Object for a class?
+What is the default value of byte datatype in Java?
+What is the default value of float and double datatype in Java?
+When a byte datatype is used?
+What is a static variable?
+What do you mean by Access Modifier?
+What is protected access modifier?
+What do you mean by synchronized Non Access Modifier?
+According to Java Operator precedence, which operator is considered to be with highest precedence?
+Variables used in a switch statement can be used with which datatypes?
+When parseInt() method can be used?
+Why is String class considered immutable?
+Why is StringBuffer called mutable?
+What is the difference between StringBuffer and StringBuilder class?
+Which package is used for pattern matching with regular expressions?
+java.util.regex consists of which classes?
+What is finalize() method?
+What is an Exception?
+What do you mean by Checked Exceptions?
+Explain Runtime Exceptions?
+Which are the two subclasses under Exception class?
+When throws keyword is used?
+When throw keyword is used?
+How finally used under Exception Handling?
+What things should be kept in mind while creating your own exceptions in Java?
+Define Inheritance?
+When super keyword is used?
+What is Polymorphism?
+What is Abstraction?
+What is Abstract class?
+When Abstract methods are used?
+What is Encapsulation?
+What is the primary benefit of Encapsulation?
+What is an Interface?
+Give some features of Interface?
+Define Packages in Java?
+Why Packages are used?
+What do you mean by Multithreaded program?
+What are the two ways in which Thread can be created?
+What is an applet?
+An applet extend which class?
+Explain garbage collection in Java?
+Define immutable object?
+Explain the usage of this() with constructors?
+Explain Set Interface?
+Explain TreeSet?
+What is Comparable Interface?
+Difference between throw and throws?
+Explain the following line used under Java Program ?
+public static void main (String args[ ])
+Define JRE i.e. Java Runtime Environment?
+What is JAR file?
+What is a WAR file?
+Define JIT compiler?
+What is the difference between object oriented programming language and object based programming language?
+What is the purpose of default constructor?
+Can a constructor be made final?
+What is static block?
+Define composition?
+What is function overloading?
+What is function overriding?
+Difference between Overloading and Overriding?
+What is final class?
+What is NullPointerException?
+What are the ways in which a thread can enter the waiting state?
+How does multi-threading take place on a computer with a single CPU?
+What invokes a thread's run() method?
+Does it matter in what order catch statements for FileNotFoundException and IOException are written?
+What is the difference between yielding and sleeping?
+Why Vector class is used?
+How many bits are used to represent Unicode, ASCII, UTF-16, and UTF-8 characters?
+What are Wrapper classes?
+What is the difference between a Window and a Frame?
+Which package has light weight components?
+What is the difference between the paint() and repaint() methods?
+What is the purpose of File class?
+What is the difference between the Reader/Writer class hierarchy and the InputStream/OutputStream class hierarchy?
+Which class should you use to obtain design information about an object?
+What is the difference between static and non-static variables?
+What is Serialization and deserialization?
+What are use cases?
+Explain the use of sublass in a Java program?
+How to add menushortcut to menu item?
+Can you write a Java class that could be used both as an applet as well as an application?
+What is the difference between Swing and AWT components?
+What's the difference between constructors and other methods?
+Is there any limitation of using Inheritance?
+When is the ArrayStoreException thrown?
+Can you call one constructor from another if a class has multiple constructors?
+What's the difference between the methods sleep() and wait()?
+When ArithmeticException is thrown?
+What is a transient variable?
+What is synchronization?
+What is the Collections API?
+Does garbage collection guarantee that a program will not run out of memory?
+The immediate superclass of the Applet class?
+Which Java operator is right associative?
+What is the difference between a break statement and a continue statement?
+If a variable is declared as private, where may the variable be accessed?
+What is the purpose of the System class?
+List primitive Java types?
+What is the relationship between clipping and repainting under AWT?
+Which class is the immediate superclass of the Container class?
+What class of exceptions are generated by the Java run-time system?
+Under what conditions is an object's finalize() method invoked by the garbage collector?
+How can a dead thread be restarted?
+Which arithmetic operations can result in the throwing of an ArithmeticException?
+Variable of the boolean type is automatically initialized as?
+Can try statements be nested?
+What are ClassLoaders?
+What is the difference between an Interface and an Abstract class?
+What will happen if static modifier is removed from the signature of the main method?
+What is the default value of an object reference declared as an instance variable?
+Can a top level class be private or protected?
+Why do we need wrapper classes?
+What is the difference between error and an exception?
+Is it necessary that each try block must be followed by a catch block?
+When a thread is created and started, what is its initial state?
+What is the Locale class?
+What are synchronized methods and synchronized statements?
+What is runtime polymorphism or dynamic method dispatch?
+What is Dynamic Binding(late binding)?
+Can constructor be inherited?
+What are the advantages of ArrayList over arrays?
+Why deletion in LinkedList is fast than ArrayList?
+How do you decide when to use ArrayList and LinkedList?
+What is a Values Collection View ?
+What is dot operator?
+Where and how can you use a private constructor?
+What is type casting?
+Describe life cycle of thread?
+What is the difference between the >> and >>> operators?
+Which method of the Component class is used to set the position and size of a component?
+What is the range of the short type?
+What is the immediate superclass of Menu?
+Does Java allow Default Arguments?
+Which number is denoted by leading zero in java?
+Which number is denoted by leading 0x or 0X in java?
+Break statement can be used as labels in Java?
+Where import statement is used in a Java program?
+Explain suspend() method under Thread class>
+Explain isAlive() method under Thread class?
+What is currentThread()?
+Explain main thread under Thread class execution?
+Life cycle of an applet includes which steps?
+Why is the role of init() method under applets?
+Which method is called by Applet class to load an image?
+Define code as an attribute of Applet?
+Define canvas?
+Define Network Programming?
+What is a Socket?
+Advantages of Java Sockets?
+Disadvantages of Java Sockets?
+Which class is used by server applications to obtain a port and listen for client requests?
+Which class represents the socket that both the client and server use to communicate with each other?
+Why Generics are used in Java?
+What environment variables do I need to set on my machine in order to be able to run Java programs?
+Is there any need to import java.lang package?
+What is Nested top-level class?
+What is Externalizable interface?
+If System.exit (0); is written at the end of the try block, will the finally block still execute?
+What is daemon thread?
+Which method is used to create the daemon thread?
+Which method must be implemented by all threads?
+What is the GregorianCalendar class?
+What is the SimpleTimeZone class?
+What is the difference between the size and capacity of a Vector?
+Can a vector contain heterogenous objects?
+What is an enumeration?
+What is difference between Path and Classpath?
+Can a class declared as private be accessed outside it's package?
+What are the restriction imposed on a static method or a static block of code?
+Can an Interface extend another Interface?
+Which object oriented Concept is achieved by using overloading and overriding?
+What is an object's lock and which object's have locks?
+What is Downcasting?
+What are order of precedence and associativity and how are they used?
+If a method is declared as protected, where may the method be accessed?
+What is the difference between inner class and nested class?
+What restrictions are placed on method overriding?
+What is constructor chaining and how is it achieved in Java?
+Can a double value be cast to a byte?
+How does a try statement determine which catch clause should be used to handle an exception?
+What will be the default values of all the elements of an array defined as an instance variable?
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Last Updated:
+August 6, 2021
+
+Q #1) What is JAVA?
+Q #2) What are the features of JAVA?
+Q #3) How does Java enable high performance?
+Q #4) Name the Java IDE’s?
+Q #5) What do you mean by Constructor?
+Q #6) What is meant by the Local variable and the Instance variable?
+Q #7) What is a Class?
+Example:
+Q #8) What is an Object?
+Example:
+Q #9)What are the OOPs concepts?
+Q #10) What is Inheritance?
+Example:
+Q #11) What is Encapsulation?
+Example:
+In order to overcome the problem we need to follow the steps below:
+Q #12) What is Polymorphism?
+Example:
+Q #13) What is meant by Method Overriding?
+Example:
+Q #14) What is meant by Overloading?
+Example:
+Q #15) What is meant by Interface?
+Example:
+Q #16) What is meant by Abstract class?
+Example:
+Q #17) Difference between Array and Array List.
+Q #18) Difference between String, String Builder, and String Buffer.
+Example:
+Example:
+Q #19) Explain about Public and Private access specifiers.
+Q #20) Difference between Default and Protected access specifiers.
+Q #21) Difference between HashMap and HashTable.
+Q #22) Difference between HashSet and TreeSet.
+Q #23) Difference between Abstract class and Interface.
+Q #24)  What is the meaning of Collections in Java?
+Q #25) What are all the Classes and Interfaces that are available in the collections?
+Q #26) What is meant by Ordered and Sorted in collections?
+Q #27) Explain the different lists available in the collection.
+Example:
+Example:
+Example:
+Q #28) Explain about Set and their types in a collection.
+Example:
+Example:
+Example:
+Q #29) Explain about Map and its types.
+Example:
+Example:
+Example:
+Example:
+Q #30) Explain the Priority Queue.
+Q #31) What is meant by Exception?
+Example for handling Exception:
+Q #32) What are the types of Exceptions?
+For Example,
+Q #33) What are the different ways to handle exceptions?
+Example:
+Example:
+Q #34) What are the advantages of Exception handling?
+ Q #35) What are the Exception handling keywords in Java?
+Q #36) Explain about Exception Propagation.
+Example:
+Example:
+From the above example, the stack looks like as shown below:
+Q #37) What is the final keyword in Java?
+Example:
+Q #38) What is a Thread?
+Example:
+Q #39) How do you make a thread in Java?
+Example:
+Example:
+Q #40) Explain about join () method.
+Example:
+Q #41) What does the yield method of the Thread class do?
+Example:
+Q #42) Explain about wait () method.
+Example:
+Q #43) Difference between notify() method and notifyAll() method in Java.
+Q #44) How to stop a thread in java? Explain about sleep () method in a thread?
+Example:
+Q #45) When to use the Runnable interface Vs Thread class in Java?
+Q #46) Difference between start() and run() method of thread class.
+Q #47) What is Multi-threading?
+Example Program:
+Q #48) Explain the thread life cycle in Java.
+Example:
+Q #49) What is Synchronization?
+Example:
+Q #50) What is the disadvantage of Synchronization?
+Q #51) What is meant by Serialization?
+Q #52) What is the purpose of a transient variable?
+Example:
+Q #53) Which methods are used during the Serialization and Deserialization process?
+Q #54) What is the purpose of a Volatile Variable?
+Example:
+Q #55) Difference between Serialization and Deserialization in Java.
+Q #56) What is SerialVersionUID?
+
+
+
+
+Q1. What is the difference between an Inner Class and a Sub-Class?
+Q2. What are the various access specifiers for Java classes?
+Q3. What's the purpose of Static methods and static variables?
+Q4. What is data encapsulation and what's its significance?
+Q5. What is a singleton class? Give a practical example of its usage.
+Q6. What are Loops in Java? What are three types of loops?
+Q7: What is an infinite Loop? How infinite loop is declared?
+Q8. What is the difference between continue and break statement?
+Q9. What is the difference between double and float variables in Java?
+Q10. What is Final Keyword in Java? Give an example.
+Q11. What is ternary operator? Give an example.
+Q12: How can you generate random numbers in Java?
+Q13. What is default switch case? Give example.
+Q14. What's the base class in Java from which all classes are derived?
+Q15. Can main() method in Java can return any data?
+Q16. What are Java Packages? What's the significance of packages?
+Q17. Can we declare a class as Abstract without having any abstract method?
+Q18. What's the difference between an Abstract Class and Interface in Java?
+Q19. What are the performance implications of Interfaces over abstract classes?
+Q20. Does Importing a package imports its sub-packages as well in Java?
+Q21. Can we declare the main method of our class as private?
+Q22. How can we pass argument to a function by reference instead of pass by value?
+Q23. How an object is serialized in java?
+Q24. When we should use serialization?
+Q25. Is it compulsory for a Try Block to be followed by a Catch Block in Java for Exception handling?
+Q26. Is there any way to skip Finally block of exception even if some exception occurs in the exception block?
+Q27. When the constructor of a class is invoked?
+Q28. Can a class have multiple constructors?
+Q29. Can we override static methods of a class?
+Q30. In the below example, what will be the output?
+Q31. Is String a data type in java?
+Q32. In the below example, how many String Objects are created?
+Q33. Why Strings in Java are called as Immutable?
+Q34. What's the difference between an array and Vector?
+Q35. What is multi-threading?
+Q36. Why Runnable Interface is used in Java?
+Q37. What are the two ways of implementing multi-threading in Java?
+Q38. When a lot of changes are required in data, which one should be a preference to be used? String or StringBuffer?
+Q39. What's the purpose of using Break in each case of Switch Statement?
+Q40. How garbage collection is done in Java?
+Q41. How we can execute any code even before main method?
+Q42. Can a class be a super class and a sub-class at the same time? Give example.
+Q43. How objects of a class are created if no constructor is defined in the class?
+Q44. In multi-threading how can we ensure that a resource isn't used by multiple threads simultaneously?
+Q45. Can we call the constructor of a class more than once for an object?
+Q46. There are two classes named classA and classB. Both classes are in the same package. Can a private member of classA can be accessed by an object of classB?
+Q47. Can we have two methods in a class with the same name?
+Q48. How can we make copy of a java object?
+Q49. What's the benefit of using inheritance?
+Q50. What's the default access specifier for variables and methods of a class?
+Q51. Give an example of use of Pointers in Java class.
+Q52. How can we restrict inheritance for a class so that no class can be inherited from it?
+Q53. What's the access scope of Protected Access specifier?
+Q54. What's difference between Stack and Queue?
+Q55. In java, how we can disallow serialization of variables?
+Q56. How can we use primitive data types as objects?
+Q57. Which types of exceptions are caught at compile time?
+Q58. Describe different states of a thread.
+Q59. Can we use a default constructor of a class even if an explicit constructor is defined?
+Q60. Can we override a method by using same method name and arguments but different return types?
+Q61.What will be the output of following piece of code?
+Q61. A person says that he compiled a java class successfully without even having a main method in it? Is it possible?
+Q62. Can we call a non-static method from inside a static method?
+Q63. What are the two environment variables that must be set in order to run any Java programs?
+Q64. Can variables be used in Java without initialization?
+Q65. Can a class in Java be inherited from more than one class?
+Q66. Can a constructor have different name than a Class name in Java?
+Q67. What will be the output of Round(3.7) and Ceil(3.7)?
+Q68: Can we use goto in Java to go to a particular line?
+Q69. Can a dead thread be started again?
+Q70. Is the following class declaration correct?
+Q71. Is JDK required on each machine to run a Java program?
+Q72. What's the difference between comparison done by equals method and == operator?
+Q73. Is it possible to define a method in Java class but provide it's implementation in the code of another language like C?
+Q74. How are destructors defined in Java?
+Q75. Can a variable be local and static at the same time?
+Q76. Can we have static methods in an Interface?
+Q77. In a class implementing an interface, can we change the value of any variable defined in the interface?
+Q78. Is it correct to say that due to garbage collection feature in Java, a java program never goes out of memory?
+Q79. Can we have any other return type than void for main method?
+Q80. I want to re-reach and use an object once it has been garbage collected. How it's possible?
+Q81. In Java thread programming, which method is a must implementation for all threads?
+Q82. I want to control database connections in my program and want that only one thread should be able to make database connection at a time. How can I implement this logic?
+Q83. How can an exception be thrown manually by a programmer?
+Q84. I want my class to be developed in such a way that no other class (even derived class) can create its objects. How can I do so?
+Q85. How objects are stored in Java?
+Q86. How can we find the actual size of an object on the heap?
+Q87. Which of the following classes will have more memory allocated?
+Q88. What happens if an exception is not handled in a program?
+Q89. I have multiple constructors defined in a class. Is it possible to call a constructor from another constructor's body?
+Q90. What's meant by anonymous class?
+Q91. Is there a way to increase the size of an array after its declaration?
+Q92. If an application has multiple classes in it, is it okay to have a main method in more than one class?
+Q93. I want to persist data of objects for later use. What's the best approach to do so?
+Q94. What is a Local class in Java?
+Q95. String and StringBuffer both represent String objects. Can we compare String and StringBuffer in Java?
+Q96. Which API is provided by Java for operations on set of objects?
+Q97. Can we cast any other type to Boolean Type with type casting?
+Q98. Can we use different return types for methods when overridden?
+Q99. What's the base class of all exception classes?
+Q100. What's the order of call of constructors in inheritance?
+
+
+Q1. Can we Overload or Override static methods in java? 
+Q2. Why the main method is static in java? 
+The method is static because otherwise there would be ambiguity: which constructor should be called? Especially if your class looks like this: 
+Q3. What happens if you remove static modifier from the main method? 
+Program compiles successfully. But at runtime throws an error “NoSuchMethodError”. 
+Q4. What is the scope of variables in Java in following cases?  
+ 
+Q5. What is “this” keyword in java? 
+Within an instance method or a constructor, this is a reference to the current object — the object whose method or constructor is being called. You can refer to any member of the current object from within an instance method or a constructor by using this. 
+Usage of this keyword 
+ 
+Q6. What is an abstract class? How abstract classes are similar or different in Java from C++? 
+Abstract classes are classes that contain one or more abstract methods. An abstract method is a method that is declared but contains no implementation. Abstract classes may not be instantiated, and require subclasses to provide implementations for the abstract methods. 
+ 
+Q7. Which class is the superclass for every class? 
+Object class 
+Q8. Can we overload main() method? 
+The main method in Java is no extra-terrestrial method. Apart from the fact that main() is just like any other method & can be overloaded in a similar manner, JVM always looks for the method signature to launch the program. 
+ 
+Q9. What is object cloning? 
+Object cloning means to create an exact copy of the original object. If a class needs to support cloning, it must implement java.lang.Cloneable interface and override clone() method from Object class. Syntax of the clone() method is : 
+ 
+Q10. How is inheritance in C++  different from Java? 
+ 
+Q11. Why method overloading is not possible by changing the return type in java? 
+In C++ and Java, functions can not be overloaded if they differ only in the return type. The return type of functions is not a part of the mangled name which is generated by the compiler for uniquely identifying each function. The No of arguments, Type of arguments & Sequence of arguments are the parameters which are used to generate the unique mangled name for each function. It is on the basis of these unique mangled names that compiler can understand which function to call even if the names are same(overloading). 
+Q12. Can we override private methods in Java? 
+No, a private method cannot be overridden since it is not visible from any other class. Read more 
+Q13. What is blank final variable? 
+A final variable in Java can be assigned a value only once, we can assign a value either in declaration or later. 
+ 
+Q14. What is “super” keyword in java? 
+The super keyword in java is a reference variable that is used to refer parent class objects. The keyword “super” came into the picture with the concept of Inheritance. Whenever you create the instance of a subclass, an instance of parent class is created implicitly i.e. referred by super reference variable. 
+Various scenarios of using java super Keyword: 
+ 
+Q15. What is static variable in Java? 
+The static keyword in java is used for memory management mainly. We can apply java static keyword with variables, methods, blocks and nested class. The static keyword belongs to the class than the instance of the class. 
+Q16. Differences between HashMap and HashTable in Java. 
+1. HashMap is non synchronized. It is not-thread safe and can’t be shared between many threads without proper synchronization code whereas Hashtable is synchronized. It is thread-safe and can be shared with many threads. 
+2. HashMap allows one null key and multiple null values whereas Hashtable doesn’t allow any null key or value. 
+3. HashMap is generally preferred over HashTable if thread synchronization is not needed 
+Read more 
+Q17. How are Java objects stored in memory? 
+In Java, all objects are dynamically allocated on Heap. This is different from C++ where objects can be allocated memory either on Stack or on Heap. In C++, when we allocate object using new(), the object is allocated on Heap, otherwise on Stack if not global or static. 
+In Java, when we only declare a variable of a class type, only a reference is created (memory is not allocated for the object). To allocate memory to an object, we must use new(). So the object is always allocated memory on the heap.  Read more 
+Q18. What are C++ features missing in Java? 
+Try to answer this on your own before seeing the answer – here. 
+
+
+
+
+1. What is Java?
+2. How to install Java?
+5. How to take input in Java?
+6. How to set path in Java?
+9. How to compare two strings in Java?
+10. What is abstraction in Java?
+11. What is encapsulation in java
+12. What is collection in java?
+13. What is api in java?
+14. How to initialize array in java?
+15. How to take input from user in java?
+16. What is static in java?
+17. What is package in java?
+18. How to sort an array in java?
+19. What is an abstract class in java?
+20. What is method in java?
+21. How to check java version?
+22. What is a class in java?
+23. What is core java?
+24. How to enable java in chrome?
+25. What is string in java?
+26. What is exception in java?
+27. Why multiple inheritance is not supported in java?
+28. How to take string input in java?
+29. What is singleton class in java?
+30. What is array in java?
+31. What is garbage collection in java?
+32. Why we need encapsulation in java?
+33. What is jvm in java?
+34. What is java programming?
+35. How hashmap works internally in java?
+36. Who invented java?
+37. How to execute a java program?
+38. How to get input from user in java?
+39. What is bytecode in java?
+40. How to set classpath in java?
+41. How to connect database in java?
+42. What is enum in java?
+43. How to uninstall java?
+44. How to find duplicate characters in a string in java?
+45. How to take character input in java?
+46. how to read string in java?
+47. How to round off numbers in java?
+48. How to get current date in java?
+49. What is dao in java?
+50. What is awt in java?
+51. What is framework in java?
+52. How to update java?
+53. How to run java program in command prompt?
+54. What is variable in java?
+55. What is the difference between java and javascript?
+56. How to count the number of occurrences of a character in a string in java?
+57. how to read excel file in java?
+58. What is a method in java?
+59. How to read csv file in java?
+60. How to check java version in windows?
+61. What is public static void main in java?
+62. Why we use interface in java?
+63. What is the purpose of serialization in java?
+64. What is functional interface in java?
+65. What is this keyword in java?
+66. How was java initially named?
+67. How to remove duplicate elements from array in java?
+68. What is difference between throw and throws in java?
+69. What is classpath in java?
+70. Why is Java Platform Independent?
+71. What is Method overloading? Why is it used in Java?
+72. What is Method overloading? Why is it used in Java?
+73. Why is Java Robust?
+74. Why is Java Secure?
+75. What is the difference between JDK, JRE, and JVM?
+76. What are the features of Java?
+77. Does Java Support Pointers?
+78. Why are Static variables used in Java?
+79. What are static methods, static variables, and static blocks?
+80. What’s the use of static methods?
+81. What’s the use of static variables?
+82. What are the interfaces?
+83. How is Abstraction achieved in Java?
+84. Why are strings immutable in Java?
+85. What are wrapper classes in Java?
+86. Can interfaces in Java be inherited?
+87. Are static methods allowed in a Java interface?
+88. How is garbage collection done in Java?
+89. Can there be two main methods in a class?
+90. Can private variables be inherited?
+91. Can the size of an array be increased after declaration?
+92. What is the size of the below array in memory?
+int a[]=new int[10];
+93. How many data types does java support?
+94. How to find out the ASCII value of a character in java?
+95. How to get a string as user input from the console?
+96. How to check the size of strings?
+97. How can we sort a list of elements in Java?
+98. If we sort a list of strings how would be the strings arranged? The strings would be arranged alphabetically in ascending order.
+99. The difference between throw and throws in Java?
+100. Can we make an array volatile in Java?
+101. Can I store a double value in a long variable without casting?
+102. Which one will take more memory, an int or Integer?
+103. The difference between nested static class and top-level class?
+104. What is the use of the final keyword?
+105. What’s the difference between deep copy and shallow copy?
+106. What’s the use of default constructor?
+107. What is object cloning?
+108. Why are static blocks used?
+109. What is the use of this keyword in java?
+110. What’s the difference between String and String Builder class in java?
+111. How to calculate the size of an object?
+112. What’s the difference between == and .equals()?

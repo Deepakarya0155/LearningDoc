@@ -1,0 +1,41 @@
+<input [type]="type" />      <!-- Property binding -->
+<select [(ngModel)]="type">   <!-- tow way binding -->
+    <option>text</option>
+    <option>file</option>
+    <option>radio</option>
+</select>
+
+<!-- attribute binding for those which is not part of D
+    DOM object-->
+
+<table >
+    <tbody>
+        <tr>
+        <td [attr.rowspan]="'2'">1</td>
+        <td >1</td>
+        </tr>
+        <tr>
+            <td >1</td>
+            <td >1</td>
+            </tr>
+            <tr>
+                <td >1</td>
+                <td >1</td>
+            </tr>
+    </tbody>
+</table>
+
+
+
+<style>
+    .abc{
+        border:1px solid red;
+    }
+</style>
+<div [class.abc]="true">
+    Deepak
+</div>
+
+
+
+<input #in (change)="upload(in.files)" type="file">

@@ -1,0 +1,14 @@
+# microservice monitoring
+version: '3.2'
+
+services:
+  prometh1:
+    image: prom/prometheus
+    mem_limit: 500m
+    ports:
+      - "5500:9090"
+    networks:
+      - im-docker-network
+
+networks:
+  im-docker-network:

@@ -1,26 +1,77 @@
-version: '3.2'
+version : '3.2'
 
 services:
-  testing:
-    image: deepakarya0155/t2-dockermysqlexample:0.0.1-SNAPSHOT
+  im-config-server:
+    image: docker.io/deepakarya0155/im-configserver:0.0.1-SNAPSHOT
     mem_limit: 500m
     ports:
-      - "8888:8080"
+      - "5555:5555"
     networks:
-      - testing-network
-    depends_on:
-      - msserver
+      - im-docker-network
+    volumes:
+      - "C:/Users/Deepa/learning/Projects/Inventory Management with Billing/All_configuration:/app:rw"
     environment:
-      SPRING.DATASOURCE.URL: jdbc:mysql://msserver:3306/
-  msserver:
-    image: mysql
-    environment:
-      MYSQL_ROOT_PASSWORD: admin
-      MYSQL_DATABASE: testing
+      SPRING.CLOUD.CONFIG.SERVER.GIT.URI: /app
+      SPRING.SECURITY.USER.NAME: admin
+      SPRING.SECURITY.USER.PASSWORD: admin
+  im-namming-server:
+    image: docker.io/deepakarya0155/im-naming-server:0.0.1-SNAPSHOT
+    mem_limit: 500m
     ports:
-      - "3306:3306"
+      - "5570:5570"
     networks:
-      - testing-network
+      - im-docker-network
+    environment:
+      SPRING.CONFIG.IMPORT: optional:configserver:http://im-config-server:5555
+      EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://im-namming-server:5570/eureka/
+      SPRING.CLOUD.CONFIG.USERNAME: admin
+      SPRING.CLOUD.CONFIG.PASSWORD: admin
+    depends_on:
+      - im-config-server
+    volumes :
+      - "C:/log/im-naming-server-logs:/log:rw"
+  # im-security:
+  #   image: docker.io/deepakarya0155/im-security:0.0.1-SNAPSHOT
+  #   mem_limit: 500m
+  #   ports:
+  #     - "5560:5560"
+  #   networks:
+  #     - im-docker-network
+  #   environment:
+  #     SPRING.CONFIG.IMPORT: optional:configserver:http://im-config-server:5555
+  #     SPRING.DATASOURCE.URL: jdbc:mysql://im-db:3306/inventoryDB
+  #     SPRING.DATASOURCE.USERNAME: root
+  #     SPRING.DATASOURCE.PASSWORD: admin
+  #     SPRING.JPA.HIBERNATE.DDL-AUTO: update
+  #     EUREKA.CLIENT.SERVICEURL.DEFAULTZONE: http://im-namming-server:5570/eureka/
+  #   depends_on:
+  #     - im-config-server
+  #     - im-db
+  #     - im-namming-server
+  #   volumes:
+  #     - "C:/log/im-security-logs:/log:rw"
+
+  # im-db:
+  #   image: mysql
+  #   mem_limit: 500m
+  #   ports:
+  #     - "3306:3306"
+  #   networks:
+  #     - im-docker-network
+  #   environment:
+  #     MYSQL_ROOT_PASSWORD: admin
+  # im-keyclock:
+  #   image: quay.io/keycloak/keycloak:14.0.0
+  #   mem_limit: 500m
+  #   ports:
+  #     - "5590:8080"
+  #   networks:
+  #     - im-docker-network
+  #   environment:
+  #     KEYCLOAK_USER: admin
+  #     KEYCLOAK_PASSWORD: admin  
+  #   volumes :
+  #     - "C:/log/keyclock-logs:/opt/jboss/keycloak/standalone/log:rw"
 
 networks:
-  testing-network:
+  im-docker-network:

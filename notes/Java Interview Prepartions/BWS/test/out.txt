@@ -1,0 +1,421 @@
+KEY # advantages
+Advantages of Java Sockets?
+Disadvantages of Java Sockets?
+KEY # class
+12. Explain the use of final keyword in variable, method and class.
+34. What happens if there are multiple main methods inside one class in Java?
+48. Is it possible to import the same class or package twice in Java and what happens to it during runtime?
+4. How to create immutable class in java?
+6. What is xname class in java?
+11. What is classloader?
+17. Which class contains the clone method? Cloneable or Object?
+10. What is wrapper class in java?
+92. How to create singleton class in java?
+1. What is class in Java?
+15. What is a singleton class in Java? Whatâ€™s the benefit of making a class singleton?
+Q5. What are wrapper classes in Java?
+Q7. What is singleton class in Java and how can we make a class singleton?
+Q15. Define a Java Class.
+Q29. What is a classloader in Java?
+Define class?
+What kind of variables a class can consist of?
+What is a Class Variable?
+What is Singleton class?
+java.util.regex consists of which classes?
+An applet extend which class?
+What is final class?
+Why Vector class is used?
+What are Wrapper classes?
+What is the purpose of File class?
+Which class should you use to obtain design information about an object?
+Can you write a Java class that could be used both as an applet as well as an application?
+The immediate superclass of the Applet class?
+What is the purpose of the System class?
+Which class is the immediate superclass of the Container class?
+What are ClassLoaders?
+Can a top level class be private or protected?
+Why do we need wrapper classes?
+What is the Locale class?
+Which method of the Component class is used to set the position and size of a component?
+What is the immediate superclass of Menu?
+Explain suspend() method under Thread class>
+Explain isAlive() method under Thread class?
+Explain main thread under Thread class execution?
+Which method is called by Applet class to load an image?
+Which class represents the socket that both the client and server use to communicate with each other?
+What is Nested top-level class?
+What is the GregorianCalendar class?
+What is the SimpleTimeZone class?
+Can a class declared as private be accessed outside it's package?
+Q #7) What is a Class?
+Q #41) What does the yield method of the Thread class do?
+Q #45) When to use the Runnable interface Vs Thread class in Java?
+Q2. What are the various access specifiers for Java classes?
+Q5. What is a singleton class? Give a practical example of its usage.
+Q14. What's the base class in Java from which all classes are derived?
+Q21. Can we declare the main method of our class as private?
+Q42. Can a class be a super class and a sub-class at the same time? Give example.
+Q46. There are two classes named classA and classB. Both classes are in the same package. Can a private member of classA can be accessed by an object of classB?
+Q47. Can we have two methods in a class with the same name?
+Q50. What's the default access specifier for variables and methods of a class?
+Q61. A person says that he compiled a java class successfully without even having a main method in it? Is it possible?
+Q70. Is the following class declaration correct?
+Q73. Is it possible to define a method in Java class but provide it's implementation in the code of another language like C?
+Q77. In a class implementing an interface, can we change the value of any variable defined in the interface?
+Q84. I want my class to be developed in such a way that no other class (even derived class) can create its objects. How can I do so?
+Q90. What's meant by anonymous class?
+Q92. If an application has multiple classes in it, is it okay to have a main method in more than one class?
+Q94. What is a Local class in Java?
+Q7. Which class is the superclass for every class? 
+Object class 
+22. What is a class in java?
+29. What is singleton class in java?
+40. How to set classpath in java?
+69. What is classpath in java?
+85. What are wrapper classes in Java?
+89. Can there be two main methods in a class?
+###########others########
+
+2. Why is Java not a pure object oriented language?
+8. How is an infinite loop declared in Java?
+11. A single try block and multiple catch blocks can co-exist in a Java Program. Explain.
+13. Do final, finally and finalize keywords have the same function?
+14. When can you use super keyword?
+27. What is the importance of reflection in Java?
+30. Java works as â€œpass by valueâ€? or â€œpass by referenceâ€? phenomenon?
+35. What do you understand by Object Cloning and how do you achieve it in Java?
+37. Is it mandatory for a catch block to be followed after a try block?
+38. Will the finally block get executed when the return statement is written at the end of try block and catch block as shown below?
+46. Can you explain the Java thread lifecycle?
+47. What could be the tradeoff between the usage of an unordered array versus the usage of an ordered array?
+49. In case a package has sub packages, will it suffice to import only the main package? e.g. Does importing of com.myMainPackage.* also import com.myMainPackage.mySubPackage.*?
+50. Will the finally block be executed if the code System.exit(0) is written at the end of try block?
+51. What do you understand by marker interfaces in Java?
+52. Explain the term â€œDouble Brace Initialisationâ€? in Java?
+4. What is thread in Java?
+58. Write a Java Program to find the factorial of a given number.
+59. Given an array of non-duplicating numbers from 1 to n where one number is missing, write an efficient java program to find that missing number.
+60. Write a Java Program to check if any number is a magic number or not. A number is said to be a magic number if after doing sum of digits in each step and inturn doing sum of digits of that sum, the ultimate result (when there is only one digit left) is 1.
+--------
+3. What is spring in java?
+16. Is ++ operator is thread-safe in Java?
+1. What is interface in java?
+2. How to declare array in java?
+8. How to compile java program?
+11. How to iterate map in java?
+12. How to convert char to int in java?
+13. What is an interface in java?
+14. How to read a file in java?
+15. How to use scanner in java?
+16. How to reverse a number in java?
+17. What is instance in java?
+20. What is an array in java? #2
+21. What is applet in java?
+22. how to check java is installed or not?
+23. How to return an array in java?
+24. How to generate random number in java?
+27. How to find the length of an array in java?
+29. How to create a file in java?
+30. What is an instance variable in java?
+33. How to sort array in java? #2
+41. What is data type in java?
+43. What is stream in java?
+45. How to declare an array in java?
+52. How many ways to create object in java?
+53. Why java is becoming functional (java 8)?
+55. How to convert double to int in java?
+56. How to get ASCII value of char in java?
+58. What is marker interface in java?
+65. How to import scanner in java?
+68. How to add elements in array in java?
+71. When to use comparable and comparator in java with example?
+72. How to create jar file in java?
+73. How to call a method in java?
+76. How to iterate a map in java?
+77. What is the diamond problem in java?
+80. What is getname in java with example?
+81. What is bufferreader in java?
+82. How to create a package in java?
+84. How to use switch case in java?
+85. What is recursion in java?
+86. How to print array in java?
+87. What is autoboxing and unboxing in java?
+90. How to create an array of objects in java?
+99. What is a stack?
+100. What is a treemap?
+101. What is a vector?
+103. Write a program to calculate the factorial of a number in java.
+104. Write a program to check if a number is prime.
+105. Write a program to convert decimal numbers to binary.
+106. Write a program to convert decimal numbers to octal.
+109. Which of the following syntax for defining an array is correct?
+110. What will this return 3*0.1 == 0.3? true or false?
+111. Write a program to do bubble sort on an array in java.
+112. Write a program to generate the following output in java?
+*
+**
+****
+*****
+******
+113. Write a program to generate the following output.
+***
+115. Write a program in java to check for palindromes.
+116. What is the underlying mechanism in javaâ€™s built-in sort?
+118. How to remove an element from an array?
+3. What is object in java?
+4. How to create object in java?
+5. What is an object in java?
+6. What is oops in java?
+7. Who executes the byte code in java?
+8. Why java is secure?
+16. What is the role of finalize()?
+20. What is the use of super?
+24. Can the main method be declared as private in Java?
+25. What is an object in Java?
+1. What is multithreading in java?
+2. What is thread-safe in java?
+3. What is a thread in java?
+4. What is volatile in java?
+5. How to generate random numbers in java within range?
+7. Can we start a thread twice in java?
+Programming & Frameworks
+Q4. Why Java is not 100% Object-oriented?
+Q14. What are access modifiers in Java?
+Q16. What is an object in Java and how is it created?
+Q17. What is Object Oriented Programming?
+Q18. What are the main concepts of OOPs in Java?
+Q21. What is final keyword in Java?
+Q23.What is an infinite loop in Java? Explain with an example.
+Q32. What is a Map in Java?
+Q4. What do you mean by an interface in Java?
+Java Certification Training Course
+Q12. What is an association?
+Q14. What is composition in Java?
+Q3. What is Request Dispatcher?
+2. What are the steps to connect to a database in java?
+Q1. What is Spring?
+Programming & Frameworks Training
+FULL STACK WEB DEVELOPMENT INTERNSHIP PROGRAM
+Full Stack Web Development Internship Program
+JAVA CERTIFICATION TRAINING COURSE
+PYTHON SCRIPTING CERTIFICATION TRAINING
+Python Scripting Certification Training
+Q7. What is autowiring in Spring? What are the autowiring modes?
+Q9. What are some of the important Spring annotations which you have used?
+Q11. Name the types of transaction management that Spring supports.
+4. How to disable caching on back button of the browser?
+Q4. What purpose do the keywords final, finally, and finalize fulfill? 
+Q10. What is a finally block? Is there a case when finally will not execute?
+ Q12. Can we write multiple catch blocks under single try block? 
+Q15. What is a Thread?
+Q16. What are the two ways to create a thread?
+What do you know about Java?
+Why is Java Architectural Neutral?
+How Java enabled High Performance?
+Why Java is considered dynamic?
+What do you mean by Object?
+What is a Local Variable?
+What is a Instance Variable?
+What is the default value of byte datatype in Java?
+What is the default value of float and double datatype in Java?
+When a byte datatype is used?
+What do you mean by Access Modifier?
+What is protected access modifier?
+What do you mean by synchronized Non Access Modifier?
+According to Java Operator precedence, which operator is considered to be with highest precedence?
+Variables used in a switch statement can be used with which datatypes?
+When parseInt() method can be used?
+Which package is used for pattern matching with regular expressions?
+What is finalize() method?
+When throws keyword is used?
+When throw keyword is used?
+When super keyword is used?
+What is an Interface?
+Give some features of Interface?
+Define Packages in Java?
+Why Packages are used?
+What do you mean by Multithreaded program?
+What are the two ways in which Thread can be created?
+What is an applet?
+Define immutable object?
+Explain Set Interface?
+Explain TreeSet?
+What is Comparable Interface?
+Explain the following line used under Java Program ?
+What is JAR file?
+What is a WAR file?
+Define composition?
+What are the ways in which a thread can enter the waiting state?
+How does multi-threading take place on a computer with a single CPU?
+What invokes a thread's run() method?
+How many bits are used to represent Unicode, ASCII, UTF-16, and UTF-8 characters?
+Which package has light weight components?
+What are use cases?
+Explain the use of sublass in a Java program?
+How to add menushortcut to menu item?
+What is a transient variable?
+Which Java operator is right associative?
+If a variable is declared as private, where may the variable be accessed?
+What is the relationship between clipping and repainting under AWT?
+How can a dead thread be restarted?
+Variable of the boolean type is automatically initialized as?
+Can try statements be nested?
+What is the default value of an object reference declared as an instance variable?
+Is it necessary that each try block must be followed by a catch block?
+When a thread is created and started, what is its initial state?
+What are synchronized methods and synchronized statements?
+What is Dynamic Binding(late binding)?
+What is dot operator?
+Describe life cycle of thread?
+What is the range of the short type?
+Does Java allow Default Arguments?
+Which number is denoted by leading zero in java?
+Which number is denoted by leading 0x or 0X in java?
+Break statement can be used as labels in Java?
+Where import statement is used in a Java program?
+What is currentThread()?
+Life cycle of an applet includes which steps?
+Why is the role of init() method under applets?
+Define code as an attribute of Applet?
+Define canvas?
+Define Network Programming?
+What is a Socket?
+What environment variables do I need to set on my machine in order to be able to run Java programs?
+Is there any need to import java.lang package?
+What is Externalizable interface?
+If System.exit (0); is written at the end of the try block, will the finally block still execute?
+What is daemon thread?
+Which method is used to create the daemon thread?
+Which method must be implemented by all threads?
+Can a vector contain heterogenous objects?
+Can an Interface extend another Interface?
+What is an object's lock and which object's have locks?
+What are order of precedence and associativity and how are they used?
+If a method is declared as protected, where may the method be accessed?
+What will be the default values of all the elements of an array defined as an instance variable?
+Last Updated:
+August 6, 2021
+Q #1) What is JAVA?
+Q #2) What are the features of JAVA?
+Q #3) How does Java enable high performance?
+Q #4) Name the Java IDEâ€™s?
+Example:
+Q #8) What is an Object?
+Q #9)What are the OOPs concepts?
+In order to overcome the problem we need to follow the steps below:
+Q #15) What is meant by Interface?
+Q #19) Explain about Public and Private access specifiers.
+Q #29) Explain about Map and its types.
+Q #30) Explain the Priority Queue.
+For Example,
+From the above example, the stack looks like as shown below:
+Q #37) What is the final keyword in Java?
+Q #38) What is a Thread?
+Q #39) How do you make a thread in Java?
+Q #40) Explain about join () method.
+Q #42) Explain about wait () method.
+Q #44) How to stop a thread in java? Explain about sleep () method in a thread?
+Q #47) What is Multi-threading?
+Example Program:
+Q #48) Explain the thread life cycle in Java.
+Q #52) What is the purpose of a transient variable?
+Q #54) What is the purpose of a Volatile Variable?
+Q #56) What is SerialVersionUID?
+Q6. What are Loops in Java? What are three types of loops?
+Q7: What is an infinite Loop? How infinite loop is declared?
+Q10. What is Final Keyword in Java? Give an example.
+Q11. What is ternary operator? Give an example.
+Q12: How can you generate random numbers in Java?
+Q13. What is default switch case? Give example.
+Q15. Can main() method in Java can return any data?
+Q16. What are Java Packages? What's the significance of packages?
+Q20. Does Importing a package imports its sub-packages as well in Java?
+Q22. How can we pass argument to a function by reference instead of pass by value?
+Q23. How an object is serialized in java?
+Q30. In the below example, what will be the output?
+Q35. What is multi-threading?
+Q36. Why Runnable Interface is used in Java?
+Q37. What are the two ways of implementing multi-threading in Java?
+Q39. What's the purpose of using Break in each case of Switch Statement?
+Q41. How we can execute any code even before main method?
+Q44. In multi-threading how can we ensure that a resource isn't used by multiple threads simultaneously?
+Q48. How can we make copy of a java object?
+Q53. What's the access scope of Protected Access specifier?
+Q56. How can we use primitive data types as objects?
+Q61.What will be the output of following piece of code?
+Q63. What are the two environment variables that must be set in order to run any Java programs?
+Q64. Can variables be used in Java without initialization?
+Q67. What will be the output of Round(3.7) and Ceil(3.7)?
+Q68: Can we use goto in Java to go to a particular line?
+Q69. Can a dead thread be started again?
+Q74. How are destructors defined in Java?
+Q79. Can we have any other return type than void for main method?
+Q81. In Java thread programming, which method is a must implementation for all threads?
+Q82. I want to control database connections in my program and want that only one thread should be able to make database connection at a time. How can I implement this logic?
+Q86. How can we find the actual size of an object on the heap?
+Q91. Is there a way to increase the size of an array after its declaration?
+Q93. I want to persist data of objects for later use. What's the best approach to do so?
+Q96. Which API is provided by Java for operations on set of objects?
+Program compiles successfully. But at runtime throws an error â€œNoSuchMethodErrorâ€?. 
+Q4. What is the scope of variables in Java in following cases?  
+ 
+Q5. What is â€œthisâ€? keyword in java? 
+Usage of this keyword 
+Q9. What is object cloning? 
+Q13. What is blank final variable? 
+A final variable in Java can be assigned a value only once, we can assign a value either in declaration or later. 
+Q14. What is â€œsuperâ€? keyword in java? 
+Various scenarios of using java super Keyword: 
+Read more 
+Q18. What are C++ features missing in Java? 
+Try to answer this on your own before seeing the answer â€“ here. 
+1. What is Java?
+2. How to install Java?
+5. How to take input in Java?
+6. How to set path in Java?
+13. What is api in java?
+14. How to initialize array in java?
+15. How to take input from user in java?
+17. What is package in java?
+20. What is method in java?
+21. How to check java version?
+23. What is core java?
+24. How to enable java in chrome?
+34. What is java programming?
+36. Who invented java?
+37. How to execute a java program?
+38. How to get input from user in java?
+39. What is bytecode in java?
+41. How to connect database in java?
+43. How to uninstall java?
+45. How to take character input in java?
+47. How to round off numbers in java?
+48. How to get current date in java?
+49. What is dao in java?
+50. What is awt in java?
+51. What is framework in java?
+52. How to update java?
+53. How to run java program in command prompt?
+54. What is variable in java?
+57. how to read excel file in java?
+58. What is a method in java?
+59. How to read csv file in java?
+60. How to check java version in windows?
+62. Why we use interface in java?
+64. What is functional interface in java?
+65. What is this keyword in java?
+66. How was java initially named?
+67. How to remove duplicate elements from array in java?
+73. Why is Java Robust?
+74. Why is Java Secure?
+76. What are the features of Java?
+82. What are the interfaces?
+91. Can the size of an array be increased after declaration?
+int a[]=new int[10];
+93. How many data types does java support?
+94. How to find out the ASCII value of a character in java?
+100. Can we make an array volatile in Java?
+104. What is the use of the final keyword?
+107. What is object cloning?
+109. What is the use of this keyword in java?
+111. How to calculate the size of an object?

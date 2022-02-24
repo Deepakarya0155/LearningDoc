@@ -1,0 +1,22 @@
+Stress Management.
+---------------------
+
+Find the root cause of stress and try to finsh that .
+
+
+Take the decision and don't look back.
+
+Always try to stay in present. do not worry about the past and future.
+
+Think about the worst-case and then try to fix the situation after this.
+
+Always try to find the positive thing and try to focus on that. Each situation provides you some learning.
+
+Do not compare yourself with others, because you never know what situation he/she faced. always compare yourself with yourselfs yesterday.
+
+Keep yourself busy so you don't have time for negtive thoughts.
+
+
+spring:
+	config:
+		import=optional:configserver:http://localhost:8888  

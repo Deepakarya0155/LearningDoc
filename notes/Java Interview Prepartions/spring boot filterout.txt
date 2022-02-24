@@ -1,0 +1,232 @@
+P = 1
+67) What is the use of <set> tag?
+7. What is the purpose of using @ComponentScan in the class files?
+Q24. What are the differences between @SpringBootApplication and @EnableAutoConfiguration annotation?
+38) What is @pathVariable?
+Have you integrated Spring Boot and ActiveMQ?
+How to disable Actuator endpoint security in Spring Boot?
+Q13. What are the advantages of Spring Boot Initializr?
+63) What are the advantages of micro service?
+How to develop a full stack application using Spring Boot and Angular?
+Where Do We Use WebMVC Test Annotation?
+Have you integrated Spring Boot and Apache Kafka?
+What is Apache Kafka? How to integrate it with Spring Boot?
+58) Define apache freemarker.
+60) Explain Apache Kafka.
+68)  What do you mean by aspect?
+How to implement JWT authentication for Spring Boot Application? 
+How to use Form Login Authentication using Spring Boot?
+Q7. How to Register a Custom Auto-Configuration?
+Q48.  Where is the database connection information specified and how does it automatically connect to H2?
+42. How to call servlet in spring boot?
+Q44. What is the error you see if  H2 is not in the classpath?
+47. What is the main class in spring boot?
+12. What are the most common Spring Boot CLI commands?
+6) How to create Spring Boot project using boot CLI?
+2. How to create spring-boot project in eclipse?
+7. How to install spring boot in eclipse?
+44. How to debug spring boot application in eclipse?
+What is Spring Cloud?
+Have you used any Spring Cloud Components with Spring Boot?
+How to deploy Spring Boot Application to Pivotal Cloud Foundry(PCF)?
+How to deploy Spring Boot + MySQL Application to Pivotal Cloud Foundry(PCF)?
+How to deploy Spring Boot + RabbitMQ Application to Pivotal Cloud Foundry(PCF)?
+20) What is the command to run Spring Boot application to custom port?
+Q39. How to enable HTTP Response Compression in Spring Boot?
+Q16. Which Is Better to Configure a Spring Boot Project Ã¢â‚¬â€? Properties or YAML?
+Q28: What is the best way to expose custom application configuration with Spring Boot?
+Q32. How is Hibernate chosen as the default implementation for JPA without any configuration?
+Q45. What is the way to use profiles to configure the environment-specific configuration with Spring Boot?
+Q34. How to disable the web server configuration in your Spring Boot application?
+Q35. How to configure and enable SSL for your Spring Boot application?
+Q41. Can we configure Spring Boot to use multiple data sources?
+12) What is the name of the configuration file which you can use in Spring Boot?
+Q 30. What are the steps to connect an external database like MySQL or Oracle?
+Q46. Mention the dependencies needed to start up a JPA Application and connect to in-memory database H2 with Spring Boot?
+Q30. How to include custom static content in Spring Boot application (e.g custom JS code)?
+52. what is the rest controller in spring boot?
+Q21. What logging support provided by Spring Boot? How can we control logging level in Spring Boot?
+61) Explain CORS in Spring Boot?
+57) What is Cross-Site Request Forgery attack?
+What is CSRF attack? How to enable CSRF protection against it?
+Q19. Which Embedded Servers Does Spring Boot Support, and How to Change the Default?
+64) What is the default package in Spring Boot?
+26) Define the term Spring Initializer
+54) Define ELK stack.
+Q27. Can you explain how to deploy to a different server with Spring Boot?
+3. How to deploy spring boot application in tomcat?
+How to deploy Spring Boot application as a WAR?
+What is Docker? How to deploy Spring Boot Applications to Docker?
+73) Explain steps to deploy an application on virtual machine.
+Which build tool have you used to develop Spring Boot Application?
+40) What are different environments for enterprise application development?
+Q11. What are the different options for creating the Spring Boot application
+5) Explain different phases of RAD model.
+How to implement distributed logging for microservices?
+53) Explain Docker in Spring Boot.
+The ELK Stack is made of three open-source products: 1) Elasticsearch, 2) Logstash, and 3) Kibana.
+51) How to enable logging in Spring Boot?
+Have you exposed a SOAP webservice endpoint using Spring Boot?
+15. What is response entity in spring boot?
+13. How to resolve whitelabel error page in spring boot application?
+53. How to handle 404 error in spring boot?
+14. How to fetch data from database in spring boot?
+36) How do you Add, Filter to an application? There are three methods to add filter to Spring Boot application:
+23. Which is the ui web framework that is built to use spring boot?
+What is FreeMarker Template? How do you implement it using Spring Boot?
+Q33. How to generate a WAR file with Spring Boot?
+8. How does a spring boot application get started?
+What is Hashicorp Valut? How to use it with microservices?
+48) What do you mean by hot-swapping in Spring Boot?
+43. what is the HTTP methods that can be implemented in spring boot rest service?
+45) How to change tomcat HTTP port?
+51. How to ignore null values in JSON response spring boot?
+10. How to save image in database using spring boot?
+22. How to store image in MongoDB using spring boot?
+How to implement Pagination and Sorting with Spring Boot?
+What is Spring Profiles? How do you implement it using Spring Boot?
+What is Spring Batch? How do you implement it using Spring Boot?
+How to implement interceptors with Spring Boot?
+When will you use WebSockets? How to implement it using Spring Boot?
+14) What are the important features of Reactjs?
+8) How can you change JDK version in Spring Boot?
+9. What is JPA in spring boot?
+46) What is LiveReload in Spring Boot?
+How to upload a file using Spring?
+16. How to use logger in spring boot?
+46. How to create a login page in spring boot?
+Q25. Why do we need spring-boot-maven-plugin?
+25. Why spring boot is used for microservices?
+How can we monitor all the Spring Boot Microservices?
+66) Explain Spring MVC.
+45. How to insert data in mysql using spring boot?
+54. How to do pagination in spring boot?
+How did you perform database operations using Spring Boot?
+69) What is join point in Spring Boot?
+Q44. What is the use of starter POM in our Spring Boot application?
+16. Is it possible to change the port of the embedded Tomcat server in Spring Boot?
+Q13. Can we change the port of the embedded Tomcat server in Spring boot?
+6. How to change port in spring boot?
+12. How to change port number in spring boot?
+30. Can we change the port of the embedded Tomcat server in Spring boot?
+Is it possible to change the port of embedded Tomcat server in spring boot?
+8) Is this possible to change the port of Embedded Tomcat server in Spring boot?
+Q42. What is application.properties file in Spring Boot?
+6) What is RAD model?
+Q43. Why is Spring Data REST not recommended in real-world applications?
+19) How to create Spring Boot application using Spring Starter Project Wizard?
+Q35. In which layer, should the boundary of a transaction start?
+Q50. Do you think, you can use jetty instead of tomcat in spring-boot-starter-web?
+17) What is spring-boot-starter-parent?
+Q24. How can we use Jetty instead of the tomcat in our web application?
+1) Tomcat
+5. How does Spring Boot works?
+Q4. What Is Spring Initializr?
+7) How to create simple Spring Boot application?
+Q2. What is Spring Boot and mention the need for it?
+Q22. Explain Spring Data.
+Q36. How does path=Ã¢â‚¬?sampleÃ¢â‚¬?, collectionResourceRel=Ã¢â‚¬?sampleÃ¢â‚¬? work with Spring Data Rest?
+17. What is bootstrapping in spring boot?
+18. Spring boot introduced in which year?
+19. How to create jar file in spring boot?
+37. What do you understand by Spring Data REST?
+48. How to use crud repository in spring boot?
+56. Which is the spring boot latest version?
+What is the Minimum Java version needed for Spring Boot?
+Have you written Test cases using Spring Boot?
+Q12. What is the Spring Boot Initilizr?
+Q27. What is the use of YAML in Spring Boot?
+Q28. What is new in Spring Boot 2.0?
+Q37. How the ApplicationContext created by Spring Boot?
+1) Explain the term 'Spring Boot'.
+11) Can you use Spring Boot with applications which are not using Spring?
+59) What is mean by spring batch?
+###########others########
+Q14. How to Write Integration Tests?
+LEAVE A REPLY
+What is YAML?
+2) Jetty
+3) Undertow.
+P = 2
+What is AOP? How to use it with Spring Boot? #2
+Q45. How to access a value defined in the application.properties file in Spring Boot? #2
+Q32. How to set the active profile in Spring Boot? #2
+Q21. How can we create a custom endpoint in Spring Boot Actuator? #2
+What are the actuator-provided endpoints used for monitoring the spring boot application? #2
+33) What is a shutdown in the actuator? #2
+5) How to enable/disable the Actuator? #2
+Q40. What is Spring Boot Admin? #2
+Q31. Mention the advantages of the YAML file than Properties file and the different ways to load YAML file in Spring boot. #2
+Q8. How to Tell an Auto-Configuration to Back Away When a Bean Exists? #2
+Q9. How to register a custom auto-configuration? #2
+Q7. Can you explain what happens in the background when a Spring Boot Application is Ã¢â‚¬Å“Run as Java ApplicationÃ¢â‚¬?? #2
+71) Is excluding package without using the basePackages filter is possible? How? #2
+29. How to get the list of all the beans in your Spring boot application? #2
+What is caching? Have you used any caching framework with Spring Boot? #2
+Q19. What is Spring Boot CLI and how to execute the Spring Boot project using boot CLI? #2
+Q10. How to Use Spring Boot for Command-Line Applications? #2
+7) What are the commands to run and stop Spring Boot executable jar file? #2
+Q49. What is the name of the default H2 database configured by Spring Boot? #2
+15) How to connect Spring Boot to the database using JPA? #2
+34. What is an IOC container? #2
+Q39. Mention the differences between WAR and embedded containers #2
+Q41. What are the steps to add a custom JS code with Spring Boot? #2
+31. How to enable debugging log in the spring boot application? #2
+Q9. How to Deploy Spring Boot Web Applications as Jar and War Files? #2
+23. Describe the flow of HTTPS requests through the Spring Boot application? #2
+What is ELK stack?How to use it with Spring Boot? #2
+30. How to check the environment properties in your Spring boot application? #2
+What is Swagger? Have you implemented it using Spring Boot? #2
+What is JWT ? How to implement it using Spring Boot Security? #2
+10. What is Spring Initializer? #2
+What is JavaConfig? List out benefits of using the JavaConfig method. #2
+How to reload my changes on Spring Boot without having to restart server? #2
+10) What are the Spring Boot properties? #2
+Q.26 Can you give an example for ReadOnly as true in Transaction management? #2
+Q11. Mention the minimum requirements for a Spring boot System. #2
+20) Spring Vs Spring Boot? #2
+8. How to create war file in spring boot? #2
+P = 3
+6. What does the @SpringBootApplication annotation do internally? #3
+1. What are the advantages of using Spring Boot? #3
+Q12. What Does It Mean That Spring Boot Supports Relaxed Binding? #3
+11. What is Spring Boot CLI and what are its benefits? #3
+2. What are the Spring Boot key components? #3
+Q38. How do you Configure Log4j for logging? #3
+16) How to connect Spring Boot application to database using JDBC? #3
+Which Embedded Containers Are Supported By Spring Boot? #3
+How to run Spring boot application to custom port? #3
+17. What is the default port of tomcat in spring boot? #3
+How Do You Override A Spring Boot ProjectÃ¢â‚¬â„¢s Default Properties? #3
+24. What is the difference between RequestMapping and GetMapping? #3
+Q17. How to enable HTTP/2 support in Spring Boot? #3
+20. How to handle exceptions in spring boot? #3
+How Is Spring Security Implemented In A Spring Boot Application? #3
+5) How to create Spring Boot project using Spring Initializer? #3
+Q5. What Spring Boot Starters Are Available Out There? #3
+10) What is Spring Boot starter? How is it useful? #3
+Q1. What Is Spring Boot and What Are Its Main Features? #3
+P = 4
+26. What is Spring Actuator? What are its advantages? #4
+13. What Are the Basic Annotations that Spring Boot Offers? #4
+19. Can we disable the default web server in the Spring boot application? #4
+Q13. What Is Spring Boot DevTools Used For? #4
+Q2. What Are the Differences Between Spring and Spring Boot? #4
+P = 5
+22. What is the difference between @RestController and @Controller in Spring Boot? #5
+32. What are the @RequestMapping and @RestController annotation in Spring Boot used for? #5
+Q11. What Are Possible Sources of External Configuration? benefits ?#5
+24. How to configure hibernate in spring boot? #5
+32. Where do we define properties in the Spring Boot application? #5
+4. What is the starter dependency of the Spring boot module? #5
+14. What is Spring Boot dependency management? #5
+33. What is dependency Injection? Explain different types of dependency injection #5
+Q20. Mention the differences between JPA and Hibernate.  #5
+Q3. How Can We Set Up a Spring Boot Application With Maven? #5
+15. Can we create a non-web application in Spring Boot? #5
+18. Can we override or replace the Embedded tomcat server in Spring Boot? #5
+25. What is the use of Profiles in spring boot? #5
+13) What is thymeleaf? #5
+Q33. What do you understand by Spring Data REST? #5
+P = 10
+Q23. What do you understand by auto-configuration in Spring Boot and how to disable the auto-configuration? #10
